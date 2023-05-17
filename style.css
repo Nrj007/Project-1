@@ -38,6 +38,7 @@ body {
 .box img {
   margin: 0px;
   width: 100%
+    height:100%
   background-image: url("hans-isaacson-Sh7i2j66OeU-unsplash.jpg");
   border-radius: 5px;
   background-size: cover;
