@@ -8,8 +8,8 @@
     <title>contact</title>
 </head>
 
-<?php
-require("./includes/send_email.php");
+<?html
+require("./includes/send_email.html");
 ?>
 
 <body>
@@ -31,7 +31,7 @@ require("./includes/send_email.php");
             <h1>/CONTACT</h1>
         </div>
         <div class="form">
-            <form action="contact.php" name="contact" method="post" onsubmit="return isValid(event)">
+            <form action="contact.html" name="contact" method="post" onsubmit="return isValid(event)">
                 <input type="email" name="email" id="contact" placeholder="youremail@mail.com" />
                 <button>Send</button>
 
