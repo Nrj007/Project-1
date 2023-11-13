@@ -1,26 +1,19 @@
-function isValid(event) {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-  var element = document.getElementById("error");
+// function isValid(event) {
+//   var username = document.getElementById("username").value;
+//   var password = document.getElementById("password").value;
+//   var element = document.getElementById("error");
 
-  if (username == "" || password == "") {
-    element.style.display = "block";
-    event.preventDefault();
-    return false;
-  }
+//   if (username == "" || password == "") {
+//     element.style.display = "block";
+//     event.preventDefault();
+//     return false;
+//   }
 
-  if (
-    username === "<?php echo $username; ?>" &&
-    password === "<?php echo $password; ?>"
-  ) {
-    document.getElementById("username").value = "";
-    document.getElementById("password").value = "";
-
-    alert("Success");
-  }
-
-  return true;
-}
+// else
+// {
+//   return true;
+// }
+// }
 
 const leftTimeline = gsap.timeline({
   repeat: -1,
