@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="ind.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KA/10 STUDIO</title>
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="http://localhost/Assignment/home.php">HOME</a>
+        </li>
+        <li>
+          <a href="http://localhost/Assignment/gallery.php" target="_self">GALLERY</a>
+        </li>
+        <li>
+          <a href="http://localhost/Assignment/about.php" target="_self">ABOUT</a>
+        </li>
+        <li>
+          <a href="http://localhost/Assignment/contact.php" target="_self">CONTACT</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="left">
+      <video src="video/6a4e2bf0-e38a085c.mp4" loop autoplay muted></video>
+    </div>
+    <div class="text">
+      <h3>
+        CREATE.BEYOND
+        <!-- <br />
+          KA/10 STUDIO -->
+      </h3>
+    </div>
+    <div class="right">
+      <img src="IMAGES/Image_1.png" alt="" />
+    </div>
+  </div>
+  <footer>
+
+    <ul class="nav-links">
+      <li>
+        <span id="user">
+          <?php
+          require("./includes/login.php");
+          $user = "";
+          if (isset($_SESSION["username"])) {
+            $user = $_SESSION['username'];
+          }
+          echo "WELCOME " . $user;
+          ?>
+        </span>
+      </li>
+      <!-- <li><a href="#">WORK </a></li>
+      <li><a href="#">ABOUT </a></li>
+      <li><a href="#">CONTACT </a></li> -->
+    </ul>
+    </div>
+    <div class="nav-links1">
+      <ul class="nav1">
+        <li><a href="#">BEHANCE </a></li>
+        <li><a href="#">TWITTER </a></li>
+        <li><a href="#">INSTAGRAM </a></li>
+        <li><a href="#">TERMS AND CONDITIONS</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".right", 1.6, {
+      opacity: 0,
+      y: 1000,
+      ease: "expo.inOut",
+      stagger: 0.2,
+    });
+
+    gsap.from(".left", 1.6, {
+      opacity: 0,
+      y: 460,
+      ease: "expo.inOut",
+      stagger: 0.2,
+    });
+  </script>
+</body>
+
+</html>

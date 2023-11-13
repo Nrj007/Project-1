@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="message.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>message</title>
+</head>
+
+<body>
+  <div class="conent">
+    <p>
+      Email Sent Successfully.
+      <br />
+      Welcome To the family!
+      <br>
+      <br>
+      <a href="Home.php"  > <button>Go Home</button></a>
+    </p>
+   
+   
+  </div>
+</body>
+
+</html>

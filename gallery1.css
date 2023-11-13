@@ -1,0 +1,351 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: "Hanson-Bold";
+  src: url(fonts/Hanson-Bold.ttf);
+}
+@font-face {
+  font-family: "Maven-Regular";
+  src: url(fonts/MavenPro-Regular.ttf);
+}
+::-webkit-scrollbar {
+  height: 1rem;
+  width: 0.5rem;
+}
+@font-face {
+  font-family: "MavenPro-Bold";
+  src: url(fonts/MavenPro-Bold.ttf);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(24, 24, 24, 0.8);
+  border-radius: 9999px;
+  border-width: 1px;
+}
+header
+{
+
+height: 9vh;
+}
+.gallery h1
+{
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1000;
+  font-family: "hanson-bold";
+  font-size: 24px;
+  margin-left: 0.5em;
+background-color: transparent;
+
+}
+
+nav {
+  border-radius: 2.5px;
+  text-align: center;
+  position: fixed;
+margin-top: 2vh;
+  top: 0%;
+  right: 0%;
+  z-index: 1000;
+  background-color: rgb(18, 18, 18);
+
+  width: 20%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-right: 3rem;
+}
+nav ul {
+  padding: 0%;
+}
+nav li {
+  padding: 1em;
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.wrapper
+{
+
+display: none;
+ height: 100%;
+width:100%;
+}
+
+._wrapper img{
+  margin-top: 0.5%;
+  height: 95%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.icon img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.icon
+{
+cursor: pointer;
+  padding: 5px;
+  height: 19px;
+  width: 19px;
+ 
+  z-index: 1000;
+}
+._wrapper
+{
+
+border-radius: 1%;
+  z-index: 100;
+  object-fit: cover;
+  height: 700px;
+  width: 700px;
+  background: rgba(53, 53, 53, 0.47);
+  backdrop-filter: blur(10px);
+position: fixed;
+bottom: 50%;
+top: 50%;
+align-items: center;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.container {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+}
+.container2 {
+  margin-top: 0%;
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.container1 {
+  margin-top: 0%;
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.left {
+  width: 100%;
+  border-right: solid rgb(218, 218, 218) 1px;
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner {
+  padding-left: 10px;
+}
+.para p
+{
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+}
+
+.para3 h5
+{
+  padding-left: 10PX;
+  font-size: 18px;
+  margin-bottom: 0%;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+}
+.img_3 img:hover
+{
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.left2 img:hover
+{
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.img_4 img:hover
+{
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}.img_1 img:hover
+{
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.inner h5 {
+  font-size: 18px;
+  margin-bottom: 0%;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+}
+.para h2 {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+}
+.para3 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.para3 H5 {
+  align-items: center;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+}
+.inner p {
+  font-size: 15px;
+  color: rgb(109, 109, 109);
+}
+.right {
+  width: 100%;
+}
+.container1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container2 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.container1 img {
+
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+}
+.image_1 {
+  height: 400px;
+  width: 100%;
+}
+.image_2 {
+  height: 400px;
+  width: 100%;
+}
+.main1 {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+/*SIZE*/
+.left2 {
+
+  display: flex;
+  width: 50%;
+  height: 600px;
+}
+.img_1 {
+
+  height: 600px;
+  width: 50%;
+  border-right: solid rgb(218, 218, 218) 1px;
+}
+
+.left2 img {
+
+  width: 100%;
+  height: 400px;
+  object-position: top;
+  object-fit: cover;
+}
+.right2 {
+  display: flex;
+  width: 50%;
+  height: 600px;
+}
+.right_inner {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+.img_2 {
+  height: 600px;
+  width: 50%;
+  border-right: solid rgb(218, 218, 218) 1px;
+}
+
+.img_3 {
+  height: 600px;
+  width: 50%;
+  border-right: solid rgb(218, 218, 218) 1px;
+}
+.img_4 {
+  height: 600px;
+  width: 50%;
+  border-right: solid rgb(218, 218, 218) 1px;
+}
+.right2 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.footer
+
+.text1
+{
+  float: right;
+  height: 300px;
+  width: 600px;
+}
+.text1 p
+{
+
+  padding: 0%;
+  color: black;
+}
+.footer
+{
+ padding-bottom: 2rem;
+  padding-top: 9rem;
+}
+.footer p
+{
+margin: 0%;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  width: 100%;
+}
