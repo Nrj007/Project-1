@@ -1,0 +1,301 @@
+body {
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: "Hanson-Bold";
+  src: url(fonts/Hanson-Bold.ttf);
+}
+
+@font-face {
+  font-family: "MavenPro-Medium";
+  src: url(fonts/MavenPro-Medium.ttf);
+}
+@font-face {
+  font-family: "MavenPro-Bold";
+  src: url(fonts/MavenPro-Bold.ttf);
+}
+@font-face {
+  font-family: "Maven-Regular";
+  src: url(fonts/MavenPro-Regular.ttf);
+}
+::-webkit-scrollbar {
+  height: 1rem;
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(118, 118, 118, 0.8);
+  border-radius: 9999px;
+  border-width: 1px;
+}
+header {
+  height: 5vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+nav {
+  border-radius: 2.5px;
+  text-align: center;
+  position: fixed;
+  margin-top: 1vh;
+  top: 0%;
+  right: 0%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+nav ul {
+  padding: 0%;
+}
+nav li {
+  padding: 1em;
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+}
+li :hover {
+  cursor: pointer;
+}
+nav a {
+  font-family: "Bebas Neue", sans-serif;
+
+  font-size: 21px;
+  font-weight: bolder;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+}
+.about {
+  border-bottom: 2px black solid;
+}
+.about h1 {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1000;
+  font-family: "hanson-bold";
+  font-size: 24px;
+  margin-left: 0.5em;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+.wrapper {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 5px;
+  height: 100vh;
+  width: 99vw;
+
+  gap: 5px;
+}
+
+.scroll {
+  padding: 0em;
+  border-top: 1px solid rgb(218, 218, 218);
+  overflow: hidden;
+  border-bottom: 1px solid rgb(209, 208, 208);
+}
+.Title {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+.Title h3 {
+  letter-spacing: 2px;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Bebas Neue", cursive;
+  color: #cccccc;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.HOME {
+  padding-left: 20px;
+}
+
+.wrapper1
+{
+  cursor: none;
+display: none;
+ height: 100%;
+width:100%;
+}
+
+._wrapper img{
+  margin-top: 0.5%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.HOME1{
+  display: flex;
+ 
+}
+.para img
+{
+  display: none;
+}
+.footer
+{
+  padding-left: 40px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 12px;
+  color: #ffffff;
+}
+.roles
+{
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 12px;
+}
+._wrapper
+{
+  filter: grayscale(1);
+
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.47);
+  backdrop-filter: blur(10px);
+padding-top: 7rem;
+padding-left: 14rem;
+
+
+
+}
+.para li {
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+.para ul {
+  padding-left: 5px;
+  text-decoration: none;
+}
+.talk {
+  height: 50vh;
+}
+.HOME1 {
+  padding-left: 20px;
+}
+.HOME h1 {
+  border-bottom: 2px solid white;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 30px;
+  margin: 0%;
+
+  color: white;
+}
+.para1 {
+  padding-top: 60px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 60px;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.HOME1 h1 {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-family: "Hanson-Bold";
+  /* font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace; */
+  font-size: 30px;
+  margin: 0%;
+  padding-bottom: 15px;
+  color: white;
+
+}
+.para2 {
+  padding-top: 40px;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 15px;
+  color: white;
+  padding-bottom: 60px;
+  width: 100%;
+  padding-left: 20px;
+}
+.image2 {
+  /* filter: blur(62px); */
+  height: 700px;
+  width: 100%;
+  align-items: top;
+  margin-bottom: 5px;
+  background-image: url("https://dr.savee-cdn.com/things/6/4/a6717f7dabd017dff7072d.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25vh;
+}
+.image2 p {
+  margin: 0%;
+  color: #ffffff;
+  font-family: "hANSON-BOLD";
+  font-size: 60px;
+}
+.image2 button {
+  position: relative;
+  top: 70%;
+  font-family: "Inter", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 20px;
+  left: 45%;
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 2px;
+  color: #ffffff;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+}
