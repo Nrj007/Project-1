@@ -1,0 +1,23 @@
+<main class=" flex h-full w-full">
+    <div [style.width]="sidebarWidth" class=" sidebar w-[400px] h-full ">
+        <button (click)="toggleSidebar()">Toggle Sidebar</button>
+    </div>
+    <div class="bg-gray-light w-full h-full">
+        <div>
+            <nav class="w-full h-[50px] bg-yellow">
+                <ul class="flex gap-4 justify-center items-center h-full">
+                    <li>Click</li>
+                    <li>Click</li>
+                    <img class="w-[50px] h-[20px]" src="assets/panel.jpg" alt="panel" (click)="toggleSidebar()">
+
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div class="flex justify-center w-full h-full">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+
+</main>
